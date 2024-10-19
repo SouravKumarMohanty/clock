@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(142, 135, 135);
+}
+
+#nav{
+    
+    width: 100%;
+    background-color: rgb(172, 8, 8);
+    display: flex ;
+    align-items: center;
+   justify-content: flex-end;
+   gap: 30px;
+   padding: 20px 50px;
+}
+#nav h4{
+    font-size: 20px;
+    
+} 
+#nav i{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 50%;
+}
+
+#center{
+    width: 100%;
+    background-color: rgb(212, 197, 242);
+}
+#center h1{
+    padding: 30px 50px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 65px;
+}
+#center-in{
+    height: 100%;
+    /* background-color: rgb(236, 19, 19); */
+    margin-top: 50px;
+    width: 100%;
+}
+#center-in p{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 50px;
+    line-height: 32px;
+}
+#right{
+    width: 20%;
+}
+#center-in {
+    justify-content: space-between;
+    display: flex;
+} 
+.elem{
+    /* background-color: yellow; */
+    /* margin: 5px; */
+    padding: 13px;
+    border-top: 2px solid black;
+}
+
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.elem:hover a{
+    background-color: rgb(155, 151, 151);
+    text-decoration: underline;
+}
+#bottom{
+    height: 45%;
+    width: 100%;
+    background-color: rgb(193, 28, 28);
+    background-image: url(https://media.istockphoto.com/id/1279113943/photo/group-of-businesswomen-collaborating-in-creative-meeting-around-table-in-modern-office.jpg?s=2048x2048&w=is&k=20&c=JwzcT3--NHPI0zhC-yq2IZdQhvlyp3ZxwomZApFrV_k=);
+    background-size: cover;
+    background-position:0 25%;
+}
